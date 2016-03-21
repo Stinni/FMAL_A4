@@ -1,0 +1,1 @@
+fun zip [] y::yt = [] | zip x::xt [] = [] | zip x::xt y::yt = (x, y)::(zip xt yt);
